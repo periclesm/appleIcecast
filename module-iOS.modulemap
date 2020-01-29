@@ -1,0 +1,5 @@
+framework module iosIcecast {
+    umbrella header "Icecast.h"
+    export *
+    module * { export * }
+}

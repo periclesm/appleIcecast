@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  stream
+//
+//  Created by Pericles Maravelakis on 13/12/2018.
+//
+
+#include <sys/time.h>
+#include <sys/timeb.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>

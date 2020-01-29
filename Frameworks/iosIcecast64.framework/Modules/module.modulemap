@@ -1,0 +1,5 @@
+framework module iosIcecast64 {
+    umbrella header "Icecast.h"
+    export *
+    module * { export * }
+}
