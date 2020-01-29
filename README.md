@@ -17,7 +17,8 @@ Copy the framework in your project and import it in your target.
 _All product frameworks are built with **Release** configuration and are ready for your app._
 
 ## Download
-In the *Frameworks* folder, there are pre-compiled versions for each platform, ready to be imported into projects.
+In the *Frameworks* folder, there are pre-compiled versions for each platform, ready to be imported into projects.</br>
+You can also select and download per platform from [here](https://github.com/periclesm/appleIcecast/releases)
 
 ## State of Union:
 All open source codecs are up-to-date as of 31/12/2019 with the code found on their respective repositories.</br>
@@ -38,6 +39,7 @@ When broadcasting from an iPhone or an iPad, it is expected that the audio sourc
 There are cables (XLR/RCA/TRS (_aka Audio Jack) connector to Lightning_) connecting an input source (ex. mixing console) with an iPhone or iPad. In this case, microphone converts to a line-in device and input audio can be broadcasted on an Icecast server through the app with the Apple Icecast framework (oh yes, this has also been tested successfully!)
 
 ## TODO:
+* **Provide working examples (apps) how to use the frameworks (very soon _-ish_)**
 * Research for Apple Catalyst version (macOS and iOS XCFramework).
 * Implement a new metadata method to broadcast information.
 * Add opus codec. 
