@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		nJawphwNT9kpKYLvqPy3Fmr7RCM=
+		le7ZdQHs1HFRcB5psdOli2Fla14=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -42,17 +42,6 @@
 			<key>hash2</key>
 			<data>
 			NDRLpk5xHszkwtmR1bm9cUrUB8DmdyM/7jGFTbMM9Uc=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			houecoEXK7NydNB6Q6sF0dz8Jlo=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZceCkKjae4ZDDG0OWcFo4fKF57QJnxEwbpcLjDoj2DM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/codec.h</key>
@@ -103,11 +92,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nJawphwNT9kpKYLvqPy3Fmr7RCM=
+			le7ZdQHs1HFRcB5psdOli2Fla14=
 			</data>
 			<key>hash2</key>
 			<data>
-			8hgNW5ix90tPPZk+7jGzrDUcrSRlIhAwvl2CqR/J7LI=
+			DcT0Kl/XHlhgij4ImfytMG6z6GyOJye7gEl1j/Himek=
 			</data>
 		</dict>
 	</dict>

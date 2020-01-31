@@ -729,9 +729,6 @@
 		6896F6AF23BB3984006F43E5 /* iosIcecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosIcecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E0A04721DA0AA500C581B8 /* Icecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Icecast.h; sourceTree = "<group>"; };
 		68E802C721C2BA460010A9F9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		68ED611323E19E150036E9A1 /* module-macOS.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "module-macOS.modulemap"; sourceTree = "<group>"; };
-		68ED611423E19F7F0036E9A1 /* module-iOS.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "module-iOS.modulemap"; sourceTree = "<group>"; };
-		68ED611523E19F7F0036E9A1 /* module-iOS64.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "module-iOS64.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1104,9 +1101,6 @@
 				68E802C721C2BA460010A9F9 /* PrefixHeader.pch */,
 				68E0A04721DA0AA500C581B8 /* Icecast.h */,
 				6888ECD623BDE39500EB7F17 /* Info.plist */,
-				68ED611323E19E150036E9A1 /* module-macOS.modulemap */,
-				68ED611423E19F7F0036E9A1 /* module-iOS.modulemap */,
-				68ED611523E19F7F0036E9A1 /* module-iOS64.modulemap */,
 				6888ECDB23BDE3C700EB7F17 /* sources */,
 				68E802BC21C2B9CC0010A9F9 /* Products */,
 			);
@@ -1878,7 +1872,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "module-iOS64.modulemap";
+				MARKETING_VERSION = 1.0.1;
+				MODULEMAP_FILE = "";
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
 				PRODUCT_BUNDLE_IDENTIFIER = net.cloudfields.Icecast;
@@ -1921,7 +1916,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "module-iOS64.modulemap";
+				MARKETING_VERSION = 1.0.1;
+				MODULEMAP_FILE = "";
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
 				PRODUCT_BUNDLE_IDENTIFIER = net.cloudfields.Icecast;
@@ -2122,7 +2118,8 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "module-macOS.modulemap";
+				MARKETING_VERSION = 1.0.1;
+				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.cloudfields.Icecast;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -2159,7 +2156,8 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "module-macOS.modulemap";
+				MARKETING_VERSION = 1.0.1;
+				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.cloudfields.Icecast;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -2198,7 +2196,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "module-iOS.modulemap";
+				MARKETING_VERSION = 1.0.1;
+				MODULEMAP_FILE = "";
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
 				PRODUCT_BUNDLE_IDENTIFIER = net.cloudfields.Icecast;
@@ -2240,7 +2239,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "module-iOS.modulemap";
+				MARKETING_VERSION = 1.0.1;
+				MODULEMAP_FILE = "";
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
 				PRODUCT_BUNDLE_IDENTIFIER = net.cloudfields.Icecast;

@@ -1,5 +1,0 @@
-framework module macIcecast {
-    umbrella header "Icecast.h"
-    export *
-    module * { export * }
-}
